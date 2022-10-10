@@ -2,8 +2,24 @@
 
 int main() 
 {
-    printf("This is the way\n");
-    printf("totally fine");
+    char *months[12] = {
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    };
+    int x;
+
+    for (x=0;x<12;x++)
+        printf("%s\n",months[x]);
 
     return 0;
 }
