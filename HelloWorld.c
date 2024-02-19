@@ -6,7 +6,7 @@ int main() {
     float price = 2.23;
     char grade = 'c';
     char name[] = "Roia";
-    printf("I like pizza\n");
-    printf("Its really good");
+
+    printf("My name is %s am a crazy person", name);
     return 0;
 }
